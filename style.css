@@ -2,17 +2,98 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 html{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.4rem;
 }
-
+body{
+  padding:15px 15px ;
+  background-color: #5c6060;
+  
+}
 h1{
   text-align: center;
-  margin-bottom: 5px;
+  margin: 10px, 10px;
+  color: white;
 }
+
 form{
   margin-top: 5px;
   padding: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  background-color: white;
 }
+h2{
+  color: white;
+  background-color: black;
+  width: 100%;
+  text-align: center;
+}
+input{
+  background-color: white;
+}
+label{
+  background-color: white;
+}
+textarea{
+  resize: none;
+  background-color: white;
+}
+div, h3,p{
+  background-color: white;
+}
+div{
+  margin-top: 10px;
+}
+button{
+  background-color: #008CBA;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 8px;
+  margin-top: 5px;
+}
+button:hover{
+  background-color: white; 
+  color: #008CBA;
+  border: 1px solid  #008CBA;
+}
+.btnEdit{
+  background-color: #979fa1;
+  color: white;
+  margin-left: 2px;
+}
+
+.btnEdit:hover{
+  background-color: white; 
+  color: #979fa1;
+  border: 1px solid #979fa1;
+}
+
+.task-container{
+  display: flex;
+  align-items: center;
+ 
+}
+.tasks{
+  border-bottom: 10px solid  #5c6060;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+.tasks:last-child{
+  border: none;
+}
+.btns{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
